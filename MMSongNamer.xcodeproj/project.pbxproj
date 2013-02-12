@@ -1,0 +1,314 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D75D57C16C9CEAD00BB6D36 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D75D57B16C9CEAD00BB6D36 /* UIKit.framework */; };
+		1D75D57E16C9CEAD00BB6D36 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D75D57D16C9CEAD00BB6D36 /* Foundation.framework */; };
+		1D75D58016C9CEAD00BB6D36 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D75D57F16C9CEAD00BB6D36 /* CoreGraphics.framework */; };
+		1D75D58616C9CEAD00BB6D36 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1D75D58416C9CEAD00BB6D36 /* InfoPlist.strings */; };
+		1D75D58816C9CEAD00BB6D36 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D75D58716C9CEAD00BB6D36 /* main.m */; };
+		1D75D58C16C9CEAD00BB6D36 /* MMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D75D58B16C9CEAD00BB6D36 /* MMAppDelegate.m */; };
+		1D75D58E16C9CEAD00BB6D36 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D75D58D16C9CEAD00BB6D36 /* Default.png */; };
+		1D75D59016C9CEAD00BB6D36 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D75D58F16C9CEAD00BB6D36 /* Default@2x.png */; };
+		1D75D59216C9CEAD00BB6D36 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D75D59116C9CEAD00BB6D36 /* Default-568h@2x.png */; };
+		1D75D59516C9CEAD00BB6D36 /* MMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D75D59416C9CEAD00BB6D36 /* MMViewController.m */; };
+		1D75D59816C9CEAD00BB6D36 /* MMViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D75D59616C9CEAD00BB6D36 /* MMViewController.xib */; };
+		1D75D5A016C9CEE800BB6D36 /* MMSong.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D75D59F16C9CEE800BB6D36 /* MMSong.m */; };
+		1D75D5A216C9D32D00BB6D36 /* iphone-wallpaper-music.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1D75D5A116C9D32D00BB6D36 /* iphone-wallpaper-music.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D75D57816C9CEAD00BB6D36 /* MMSongNamer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MMSongNamer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D75D57B16C9CEAD00BB6D36 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1D75D57D16C9CEAD00BB6D36 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D75D57F16C9CEAD00BB6D36 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1D75D58316C9CEAD00BB6D36 /* MMSongNamer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MMSongNamer-Info.plist"; sourceTree = "<group>"; };
+		1D75D58516C9CEAD00BB6D36 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1D75D58716C9CEAD00BB6D36 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1D75D58916C9CEAD00BB6D36 /* MMSongNamer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MMSongNamer-Prefix.pch"; sourceTree = "<group>"; };
+		1D75D58A16C9CEAD00BB6D36 /* MMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMAppDelegate.h; sourceTree = "<group>"; };
+		1D75D58B16C9CEAD00BB6D36 /* MMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMAppDelegate.m; sourceTree = "<group>"; };
+		1D75D58D16C9CEAD00BB6D36 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		1D75D58F16C9CEAD00BB6D36 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		1D75D59116C9CEAD00BB6D36 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		1D75D59316C9CEAD00BB6D36 /* MMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMViewController.h; sourceTree = "<group>"; };
+		1D75D59416C9CEAD00BB6D36 /* MMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMViewController.m; sourceTree = "<group>"; };
+		1D75D59716C9CEAD00BB6D36 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MMViewController.xib; sourceTree = "<group>"; };
+		1D75D59E16C9CEE800BB6D36 /* MMSong.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMSong.h; sourceTree = "<group>"; };
+		1D75D59F16C9CEE800BB6D36 /* MMSong.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMSong.m; sourceTree = "<group>"; };
+		1D75D5A116C9D32D00BB6D36 /* iphone-wallpaper-music.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "iphone-wallpaper-music.jpg"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D75D57516C9CEAD00BB6D36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D75D57C16C9CEAD00BB6D36 /* UIKit.framework in Frameworks */,
+				1D75D57E16C9CEAD00BB6D36 /* Foundation.framework in Frameworks */,
+				1D75D58016C9CEAD00BB6D36 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D75D56F16C9CEAC00BB6D36 = {
+			isa = PBXGroup;
+			children = (
+				1D75D58116C9CEAD00BB6D36 /* MMSongNamer */,
+				1D75D57A16C9CEAD00BB6D36 /* Frameworks */,
+				1D75D57916C9CEAD00BB6D36 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1D75D57916C9CEAD00BB6D36 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D75D57816C9CEAD00BB6D36 /* MMSongNamer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1D75D57A16C9CEAD00BB6D36 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1D75D57B16C9CEAD00BB6D36 /* UIKit.framework */,
+				1D75D57D16C9CEAD00BB6D36 /* Foundation.framework */,
+				1D75D57F16C9CEAD00BB6D36 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1D75D58116C9CEAD00BB6D36 /* MMSongNamer */ = {
+			isa = PBXGroup;
+			children = (
+				1D75D58A16C9CEAD00BB6D36 /* MMAppDelegate.h */,
+				1D75D59E16C9CEE800BB6D36 /* MMSong.h */,
+				1D75D59F16C9CEE800BB6D36 /* MMSong.m */,
+				1D75D58B16C9CEAD00BB6D36 /* MMAppDelegate.m */,
+				1D75D59316C9CEAD00BB6D36 /* MMViewController.h */,
+				1D75D59416C9CEAD00BB6D36 /* MMViewController.m */,
+				1D75D59616C9CEAD00BB6D36 /* MMViewController.xib */,
+				1D75D5A116C9D32D00BB6D36 /* iphone-wallpaper-music.jpg */,
+				1D75D58216C9CEAD00BB6D36 /* Supporting Files */,
+			);
+			path = MMSongNamer;
+			sourceTree = "<group>";
+		};
+		1D75D58216C9CEAD00BB6D36 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1D75D58316C9CEAD00BB6D36 /* MMSongNamer-Info.plist */,
+				1D75D58416C9CEAD00BB6D36 /* InfoPlist.strings */,
+				1D75D58716C9CEAD00BB6D36 /* main.m */,
+				1D75D58916C9CEAD00BB6D36 /* MMSongNamer-Prefix.pch */,
+				1D75D58D16C9CEAD00BB6D36 /* Default.png */,
+				1D75D58F16C9CEAD00BB6D36 /* Default@2x.png */,
+				1D75D59116C9CEAD00BB6D36 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D75D57716C9CEAD00BB6D36 /* MMSongNamer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D75D59B16C9CEAD00BB6D36 /* Build configuration list for PBXNativeTarget "MMSongNamer" */;
+			buildPhases = (
+				1D75D57416C9CEAD00BB6D36 /* Sources */,
+				1D75D57516C9CEAD00BB6D36 /* Frameworks */,
+				1D75D57616C9CEAD00BB6D36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MMSongNamer;
+			productName = MMSongNamer;
+			productReference = 1D75D57816C9CEAD00BB6D36 /* MMSongNamer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1D75D57016C9CEAC00BB6D36 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MM;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Dexter Teng";
+			};
+			buildConfigurationList = 1D75D57316C9CEAC00BB6D36 /* Build configuration list for PBXProject "MMSongNamer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1D75D56F16C9CEAC00BB6D36;
+			productRefGroup = 1D75D57916C9CEAD00BB6D36 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D75D57716C9CEAD00BB6D36 /* MMSongNamer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D75D57616C9CEAD00BB6D36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D75D58616C9CEAD00BB6D36 /* InfoPlist.strings in Resources */,
+				1D75D58E16C9CEAD00BB6D36 /* Default.png in Resources */,
+				1D75D59016C9CEAD00BB6D36 /* Default@2x.png in Resources */,
+				1D75D59216C9CEAD00BB6D36 /* Default-568h@2x.png in Resources */,
+				1D75D59816C9CEAD00BB6D36 /* MMViewController.xib in Resources */,
+				1D75D5A216C9D32D00BB6D36 /* iphone-wallpaper-music.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D75D57416C9CEAD00BB6D36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D75D58816C9CEAD00BB6D36 /* main.m in Sources */,
+				1D75D58C16C9CEAD00BB6D36 /* MMAppDelegate.m in Sources */,
+				1D75D59516C9CEAD00BB6D36 /* MMViewController.m in Sources */,
+				1D75D5A016C9CEE800BB6D36 /* MMSong.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1D75D58416C9CEAD00BB6D36 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1D75D58516C9CEAD00BB6D36 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1D75D59616C9CEAD00BB6D36 /* MMViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1D75D59716C9CEAD00BB6D36 /* en */,
+			);
+			name = MMViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1D75D59916C9CEAD00BB6D36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1D75D59A16C9CEAD00BB6D36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1D75D59C16C9CEAD00BB6D36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MMSongNamer/MMSongNamer-Prefix.pch";
+				INFOPLIST_FILE = "MMSongNamer/MMSongNamer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1D75D59D16C9CEAD00BB6D36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MMSongNamer/MMSongNamer-Prefix.pch";
+				INFOPLIST_FILE = "MMSongNamer/MMSongNamer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D75D57316C9CEAC00BB6D36 /* Build configuration list for PBXProject "MMSongNamer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D75D59916C9CEAD00BB6D36 /* Debug */,
+				1D75D59A16C9CEAD00BB6D36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D75D59B16C9CEAD00BB6D36 /* Build configuration list for PBXNativeTarget "MMSongNamer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D75D59C16C9CEAD00BB6D36 /* Debug */,
+				1D75D59D16C9CEAD00BB6D36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1D75D57016C9CEAC00BB6D36 /* Project object */;
+}
